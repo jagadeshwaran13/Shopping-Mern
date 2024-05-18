@@ -1,0 +1,14 @@
+/* ProductList.module.css */
+
+.productListContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.productCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed */

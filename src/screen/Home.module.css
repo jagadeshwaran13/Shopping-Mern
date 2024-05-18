@@ -1,0 +1,35 @@
+/* Home.module.css */
+
+.homeContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Change to 4 columns */
+  gap: 20px;
+  padding: 20px;
+  justify-content: center; /* Center items horizontally */
+}
+
+.productCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+}
+
+.productImage {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  flex-grow: 1; /* Allow the image to take remaining space */
+}
+
+.productDetails {
+  margin-top: 10px;
+}
+
+/* Additional styles */
+.home-container {
+  padding: 20px;
+}

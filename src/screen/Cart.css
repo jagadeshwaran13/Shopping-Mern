@@ -1,0 +1,50 @@
+
+/* Cart.css */
+.cart-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.product-image {
+  margin-right: 20px;
+}
+
+.product-image img {
+  max-width: 80px;
+  max-height: 80px;
+  object-fit: cover;
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.quantity-btn {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #007bff; /* Change this to your preferred button color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.item-quantity {
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.total-amount {
+  font-weight: bold;
+  margin-top: 10px;
+}

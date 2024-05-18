@@ -1,38 +1,79 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.navbar {
+  background-color: #333;
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-item.left-content {
+  text-align: left;
+  color: azure;
+  margin-right: auto;
+}
+
+.left-content {
+  float: left;
+}
+
+.right-content {
+  float: right;
+}
+.nav-item {
+  display: inline-block;
+  margin-right: 4%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  padding: 2px;
+  
+}
+
+.nav-item a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cart-logo {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cart-logo span {
+  margin-left: 5px;
 }
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Optionally, you can add some styling to the footer text */
+.footer-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
+

@@ -1,0 +1,28 @@
+/* ProductDetails.css */
+.product-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.product-description {
+  margin-bottom: 15px;
+}
+
+.product-category,
+.product-price {
+  margin-bottom: 10px;
+}
+
+.loading-text {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
